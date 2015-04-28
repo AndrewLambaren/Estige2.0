@@ -16,6 +16,8 @@
 		0DC1A9D11AE5D8510060CA9F /* EstigeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1A9D01AE5D8510060CA9F /* EstigeTests.swift */; };
 		0DC1A9DB1AE5E3CF0060CA9F /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1A9DA1AE5E3CF0060CA9F /* LoginVCViewController.swift */; };
 		0DC1A9DD1AE5E59A0060CA9F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1A9DC1AE5E59A0060CA9F /* SignUpVC.swift */; };
+		0DF814D51AEF255C0028B58E /* TERMS AND AGREEMENT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF814D41AEF255C0028B58E /* TERMS AND AGREEMENT.pdf */; };
+		0DF814D71AEF26670028B58E /* TermsandAgreementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF814D61AEF26670028B58E /* TermsandAgreementVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		0DC1A9D01AE5D8510060CA9F /* EstigeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstigeTests.swift; sourceTree = "<group>"; };
 		0DC1A9DA1AE5E3CF0060CA9F /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		0DC1A9DC1AE5E59A0060CA9F /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0DF814D41AEF255C0028B58E /* TERMS AND AGREEMENT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TERMS AND AGREEMENT.pdf"; path = "../../../TERMS AND AGREEMENT.pdf"; sourceTree = "<group>"; };
+		0DF814D61AEF26670028B58E /* TermsandAgreementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsandAgreementVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,9 @@
 		0DC1A9B41AE5D8510060CA9F /* Estige */ = {
 			isa = PBXGroup;
 			children = (
+				0DF814D41AEF255C0028B58E /* TERMS AND AGREEMENT.pdf */,
 				0DC1A9B71AE5D8510060CA9F /* AppDelegate.swift */,
+				0DF814D61AEF26670028B58E /* TermsandAgreementVC.swift */,
 				0DC1A9BC1AE5D8510060CA9F /* ViewController.swift */,
 				0DC1A9BE1AE5D8510060CA9F /* Main.storyboard */,
 				0DC1A9C11AE5D8510060CA9F /* Images.xcassets */,
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC1A9C01AE5D8510060CA9F /* Main.storyboard in Resources */,
+				0DF814D51AEF255C0028B58E /* TERMS AND AGREEMENT.pdf in Resources */,
 				0DC1A9C51AE5D8510060CA9F /* LaunchScreen.xib in Resources */,
 				0DC1A9C21AE5D8510060CA9F /* Images.xcassets in Resources */,
 			);
@@ -222,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC1A9BD1AE5D8510060CA9F /* ViewController.swift in Sources */,
+				0DF814D71AEF26670028B58E /* TermsandAgreementVC.swift in Sources */,
 				0DC1A9BB1AE5D8510060CA9F /* Estige.xcdatamodeld in Sources */,
 				0DC1A9B81AE5D8510060CA9F /* AppDelegate.swift in Sources */,
 				0DC1A9DD1AE5E59A0060CA9F /* SignUpVC.swift in Sources */,
@@ -419,6 +427,7 @@
 				0DC1A9D61AE5D8510060CA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DC1A9D71AE5D8510060CA9F /* Build configuration list for PBXNativeTarget "EstigeTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				0DC1A9D91AE5D8510060CA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
