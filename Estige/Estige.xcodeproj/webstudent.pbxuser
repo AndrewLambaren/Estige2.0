@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	0DC1A9AA1AE5D8510060CA9F /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0DF4F8381AF84DD00023A63A /* Estige */;
+		activeTarget = 0DC1A9B11AE5D8510060CA9F /* Estige */;
+		codeSenseManager = 0DF4F8571AF84DD70023A63A /* Code sense */;
+		executables = (
+			0DF4F8381AF84DD00023A63A /* Estige */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 452480464;
+			PBXWorkspaceStateSaveDate = 452480464;
+		};
+		sourceControlManager = 0DF4F8561AF84DD70023A63A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0DC1A9B11AE5D8510060CA9F /* Estige */ = {
+		activeExec = 0;
+		executables = (
+			0DF4F8381AF84DD00023A63A /* Estige */,
+		);
+	};
+	0DC1A9C91AE5D8510060CA9F /* EstigeTests */ = {
+		activeExec = 0;
+	};
+	0DF4F8381AF84DD00023A63A /* Estige */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Estige;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0DF4F8561AF84DD70023A63A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0DF4F8571AF84DD70023A63A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
